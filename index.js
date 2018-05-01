@@ -4,5 +4,5 @@ function findMatching(collection, match) {
 }
 
 function fuzzyMatch(collection, match) {
-  return collection.filter(element => element[0] === match[0])
+  return collection.filter(element => element[0] === match[0] && element[1] === match[1])
 }
