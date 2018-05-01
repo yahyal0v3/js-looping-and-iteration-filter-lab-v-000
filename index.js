@@ -1,4 +1,4 @@
 // Code your solution in this file
-function findMatching() {
-  
+function findMatching(array, match) {
+  array.fitler(function (element) { return element['name'] === match })
 }
