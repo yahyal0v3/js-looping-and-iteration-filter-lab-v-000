@@ -1,4 +1,4 @@
 // Code your solution in this file
 function findMatching(collection, match) {
-  return collection.filter(driver => {return driver.toLowerCase() === match.toLowerCase()})
+  return collection.filter(driver => driver.toLowerCase() === match.toLowerCase())
 }
